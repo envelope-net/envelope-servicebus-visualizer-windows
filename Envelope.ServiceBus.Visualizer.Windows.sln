@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F788E6DE-FF85-4BB0-B873-FED4E995B451}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		envelope_icon.png = envelope_icon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F947512D-D26F-4194-AB72-BA59CCA6E61E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Envelope.ServiceBus.Visualizer.Windows", "src\Envelope.ServiceBus.Visualizer.Windows\Envelope.ServiceBus.Visualizer.Windows.csproj", "{51E89C32-C0B5-467C-BAC3-7EB9BB619AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E89C32-C0B5-467C-BAC3-7EB9BB619AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E89C32-C0B5-467C-BAC3-7EB9BB619AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E89C32-C0B5-467C-BAC3-7EB9BB619AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E89C32-C0B5-467C-BAC3-7EB9BB619AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51E89C32-C0B5-467C-BAC3-7EB9BB619AD0} = {F947512D-D26F-4194-AB72-BA59CCA6E61E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FC7F9CF-3D29-412A-9E6D-C46696EE25E7}
+	EndGlobalSection
+EndGlobal
