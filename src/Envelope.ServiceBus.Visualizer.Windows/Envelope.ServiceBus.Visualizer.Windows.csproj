@@ -19,7 +19,7 @@
 		<Authors>Tomas Pilat</Authors>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>..\..\Envelope.snk</AssemblyOriginatorKeyFile>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -35,7 +35,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Envelope.ServiceBus.Visualizer" Version="1.0.0" />
+		<PackageReference Include="Envelope.ServiceBus.Visualizer" Version="1.0.1" />
 		<PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.2.32">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
