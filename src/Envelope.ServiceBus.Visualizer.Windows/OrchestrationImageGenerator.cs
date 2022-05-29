@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Envelope.ServiceBus.Visualizer.Windows;
 
+/// <summary>
+/// Graph image generator
+/// </summary>
 public static class OrchestrationImageGenerator
 {
 	internal const string DOT_EXE = @".\DLL\dot.exe";
