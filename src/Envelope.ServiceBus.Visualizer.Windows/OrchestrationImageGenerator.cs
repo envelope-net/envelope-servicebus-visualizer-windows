@@ -5,9 +5,6 @@ using System.Text;
 
 namespace Envelope.ServiceBus.Visualizer.Windows;
 
-/// <summary>
-/// Graph image generator
-/// </summary>
 public static class OrchestrationImageGenerator
 {
 	internal const string DOT_EXE = @".\DLL\dot.exe";
@@ -87,9 +84,6 @@ public static class OrchestrationImageGenerator
 
 	#endregion pInvoke
 
-	/// <summary>
-	/// Create graph image by calling dot.exe save temp files to disk, read and delete files
-	/// </summary>
 	public static MemoryStream CreateImageFile(string dotGraph, string outputFormat, string absoluteTempFolderPath)
 	{
 		if (!OperatingSystem.IsWindows())
@@ -146,9 +140,6 @@ public static class OrchestrationImageGenerator
 		return ms;
 	}
 
-	/// <summary>
-	/// Create graph image by PInvoke on gvc.dll and cgraph.dll
-	/// </summary>
 	public static MemoryStream CreateImage(string dotGraph, string outputFormat)
 	{
 		// Create a Graphviz context
